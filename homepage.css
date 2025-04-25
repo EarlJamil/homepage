@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  font-family: 'Libre Baskerville';
+  font-size: 40px;
+  letter-spacing: 5px;
+  word-spacing: 8px;
+  margin-left: 130px;
+  margin-top: 190px;
+}
+
+.element1 img {
+  z-index: 1;
+  width: auto;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -291px;
+
+}
+.navbar1 {
+  background: #ffffff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #0a0f13;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: -5px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 14px;
+}
+
+.navbar-links li {
+  position: relative;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #0a0f13;
+  font-weight: 600;
+  font-family: 'Libre Baskerville';
+  padding-right: 20px;
+}
+
+.drop-down {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #5b4b5b;
+  padding: 0.5rem 0;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  z-index: 9;
+}
+
+.drop-down li {
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+}
+
+.drop-down a {
+  color: #ffffff !important;
+}
+
+.drop-down li:hover {
+  background-color: #846f84;
+  color: white;
+}
+
+.dropdown:hover .drop-down {
+  display: flex;
+}
+
+.dropdown a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown .dropdown-icon {
+  font-size: 16px; 
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+
+.button1 {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #abc1b5; 
+  color: #1b1104; 
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.button1:hover {
+  background-color: #abc1b5;
+  color: white;
+}
+
+.box1 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 240px;
+  margin-left: 170px;
+}
+
+.card-container h3 {
+  font-family: 'Libre Baskerville';
+  margin-bottom: 0.75rem;
+}
+
+.card-container p {
+  font-family: 'Poppins';
+  text-align: justify;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+.card {
+  background-color: #5b4b5b; 
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  max-width: 360px;
+  text-align: left;
+  font-family: 'Libre Baskerville';
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 100px;
+  margin-right: 10px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem; 
+  border-radius: 10px;
+}
+
+.card-image img {
+  max-width: 230px; 
+  height: auto;
+  margin-top: -70px;
+  border-radius: 10px;
+  box-shadow: 10px 19px 8px rgba(0,0,0,0.1);
+  border-style:double;
+  border-color: #694D69;
+  background-color: #abc1b5;
+  opacity: 0.85;
+  padding: 5px;
+}
+
+.card-image img:hover {
+  opacity: 1.0;
+  transition: transform 0.7s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+.read-more {
+  padding: 0.4rem 1rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 210px;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+
+.read-more:hover {
+  background-color: white;
+  color: #694D69;
+}
